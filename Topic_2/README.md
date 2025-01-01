@@ -250,16 +250,32 @@ To find out how the shell invokes a specific command, `which` can be run with th
 $ which nano
 /usr/bin/nano
 ```
-107
+
 # 2.2 using the Command Line to Get Help
 
 ## Getting Help on the Command Line
 
 ### Built-in Help
 
+Using the `--help` parameter displays some brief insturcitons about their usage. The instructions given are a little very vague compared to other sources of documentations.
+
 ### Man Pages
 
+Most commands provide a manual page or `man` page and it is added as an argument to the command.
+
+```
+$ man mkdir
+```
+
 ### Info Pages
+
+The info pages are usually more detailed thant he man pages and are formatted in hypertext, similar to web pages on the Internet.
+
+```
+$ info mkdir
+```
+
+
 
 ### The /usr/share/doc/ directory
 
